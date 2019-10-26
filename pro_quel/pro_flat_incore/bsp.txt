@@ -1,0 +1,12 @@
+create ships(str,str)
+create cargoes(str,str,str,float)
+assert ships('bralanta','tanker')
+assert ships('british wye','bulk')
+assert ships('carlova','pressurized tanker')
+assert cargoes('bralanta','hamburg','kaffee',1000.0)
+assert cargoes('bralanta','hamburg','bananen',500.0)
+assert cargoes('carlova','marseille','liquefied nat. gas',1500.0)
+assert cargoes('british wye','marseille','kaffee',1000.0)
+assert cargoes('british wye','marseille','bananas',500.0)
+query cargoes(X,'marseille',Y,Z) & Z>=1000.0
+query cargoes(X,'marseille','liquefied nat. gas',Z)

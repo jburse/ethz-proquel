@@ -1,0 +1,17 @@
+Module  	Lines		Predicates      Clauses
+--------------------------------------------------------
+Core:
+main.p  	293		24      	43
+parser.p        395		58      	186
+checker.p       277		21      	91
+error.p 	98		7       	28
+Sql:
+meta.p  	281		39      	79
+eval.p  	138		14      	31
+Postgres:
+meta.p  	248		38      	71
+eval.p  	149		15      	28
+Incore:
+meta.p  	31		4       	3
+eval.p  	140		15      	31
+

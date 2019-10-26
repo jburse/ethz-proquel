@@ -1,0 +1,148 @@
+\documentstyle[german]{report}
+\setlanguage{\german}
+
+\topmargin 2cm
+\oddsidemargin 1cm
+\evensidemargin 1cm
+\textwidth 15cm
+\textheight 18cm
+
+\begin{document}
+
+\parindent0.0cm
+\parskip2ex
+\topsep0.0cm 
+\partopsep0.0cm 
+\itemsep0.0cm 
+\parsep0.0cm
+
+\abovedisplayskip0.0cm
+\belowdisplayskip0.0cm
+\abovedisplayshortskip0.0cm
+\belowdisplayshortskip0.0cm
+
+\chapter{Einleitung}
+
+bla bla \\
+bla bla \\
+bla bla
+
+\section{Motivation}
+
+Semantische Query Optimierung soll im folgenden anhand eines kleinen Beispieles
+illustriert werden. Das Beispiel ist aus [King] ... baut auf folgendem 
+Datenbankschema auf:
+
+\begin{tabular}{ll}
+\quad & ships(SHIP,STYPE) \\
+\quad & cargoes(SHIP,DEST,CTYPE,QUAN)
+\end{tabular}
+
+\begin{figure}
+\begin{center}
+\begin{tabular}{l|l}
+SHIP & STYPE \\        
+\hline 
+bralanta & tanker \\            
+british Wye & bulk \\               
+carlova & pressurized tanker 
+\end{tabular}
+\end{center}
+\caption{Die $ships$ Relation}
+\label{tabships}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\begin{tabular}{l|l|l|l}
+SHIP & DEST & CTYPE & QUAN \\
+\hline
+bralanta & hamburg & coffee & 1000 \\
+bralanta & hamburg & bananas & 500 \\
+carlova & marseille & liquefied nat. gas & 1500 \\
+british wye & marseille & coffee & 1000 \\
+british wye & marseille & bananas & 500
+\end{tabular}
+\end{center}
+\caption{Die $cargoes$ Relation}
+\label{tabcargoes}
+\end{figure}
+
+Die in unserem Beispiel verwendeten Daten sind in abb. \ref{tabships} und
+\ref{tabcargoes} zu sehen. Ein Datenbanksystem erlaubt nun vielf"alltige 
+Anfragen auf diese Daten. Im speziellen haben Anfragen einer deduktiven
+Datenbank die Form von Formeln. So wird z.B. folgende Anfrage:
+
+\begin{center}
+\begin{minipage}{10cm}
+`Zeige alle Schiffe und deren Ladungsmenge und Ladungstyp die
+nach Marseille fahren und mindestens 1000 T geladen haben'
+\end{minipage}
+\end{center}
+
+Durch folgende Formel ausgedr"uckt:
+
+\begin{center}
+$cargoes(SHIP,'Marseille',CTYPE,QUAN) \wedge QUAN>=1000$
+\end{center}
+
+Die Antwort lautet dann:
+
+\begin{center}
+\begin{tabular}{l|l|l}
+SHIP & CTYPE & QUAN \\
+\hline
+carlova & liquefied nat. gas & 1500 \\
+british wye & coffee & 1000
+\end{tabular}
+\end{center}
+
+Die zuverl"assigkeit der Daten kann durch Konsistenzbedingungen erh"oht werden.
+Konsistenzbedingungen zeigen logische Zusammanh"ange zwischen Relationen auf die Invariant
+bleiben m"ussen. In deduktiven Datenbank sind Konsistenzbedingungen Formeln die immer erf"ullt 
+sein m"ussen. So wird folgend Konsistenzbedingung:
+
+\begin{center}
+\begin{minipage}{10cm}
+`Gas wird immer mit Drucktankern transportiert'
+\end{minipage}
+\end{center}
+
+Druch folgende Formel ausgedr"uckt:
+
+\begin{center}
+$cargoes(SHIP,DEST,'liqu. nat. gas',QUAN) \rightarrow ships(SHIP,'pres. tank')$
+\end{center}
+
+Konsistenzbedingungen k"onnen nun zur Optimierung von Anfragen verwendet werden. Dazu betrachten
+wir folgende Anfrage:
+
+\begin{center}
+\begin{minipage}{10cm}
+`Zeige alle Drucktanker Schiffe und deren Ladungsmenge die Gas geladen haben
+und nach Marseille fahren'
+\end{minipage}
+\end{center}
+
+Die entsprechende Formel lautet:
+
+\begin{center}
+$ships(SHIP,'pres. tank') \wedge cargoes(SHIP,'Marseille','liqu. nat. gas',QUAN)$
+\end{center}
+
+Da Gas immer durch Drucktanker transportiert wird er"ubrigt sich die erste Bedingung. Wir
+k"onnen also folgende vereinfachte Anfrage stellen und erhalten genau die gleiche Antwortmenge:
+
+\begin{center}
+$cargoes(SHIP,'Marseille','liqu. nat. gas',QUAN)$
+\end{center}
+
+Im gegensatz zur normalen Query Optimierung wird bei der Semantischen Query Optimierung 
+zus"atzliche Semantische Information in der Form von Konsistenzbedingungen verwendet um eine 
+einfachere Query zu erhalten. In diesem Beispiel konnte ein Join eleminiert werden und ...
+In dieser Arbeit wurde ein allgemeines Verfahren zur Erzeugung der Kandidaten f"ur die 
+modifizierte Query entwickelt.
+
+\section{Problemstellung}
+
+\end{document}
