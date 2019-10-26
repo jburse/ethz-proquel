@@ -13,18 +13,21 @@ this was used to keep the code clean.
 The following Prolog text has been uploaded:
 - [pro_quel/pro_flat_incore](https://github.com/jburse/ethz-proquel/tree/master/pro_quel/pro_flat_incore):
   ProQuel with plain Prolog target.
-- [pro_quel/pro_flat_pg](https://github.com/jburse/ethz-proquel/tree/master/pro_quel/pro_flat_incore):
+- [pro_quel/pro_flat_pg](https://github.com/jburse/ethz-proquel/tree/master/pro_quel/pro_flat_pg):
   ProQuel with plain Postgres target.
-- [pro_quel/pro_flat_sql](https://github.com/jburse/ethz-proquel/tree/master/pro_quel/pro_flat_incore):
+- [pro_quel/pro_flat_sql](https://github.com/jburse/ethz-proquel/tree/master/pro_quel/pro_flat_sql):
   ProQuel with plain Oracle target.
 
 The "_flat_" in the name above means that this is the Datalog version,
 where all predicate arguments are scalar datatypes. We did not upload
 more advanced experimental versions that were also pursued in the past.
 
-# ProQuel Report
+# ProQuel Documentation
 
-The following technical report has been uploaded:
--
+The following documents have been uploaded:
+- [tex_dir/gelb](https://github.com/jburse/ethz-proquel/tree/master/tex_dir/gelb):
+  Burse, J. (1992): ProQuel: Using Prolog to Implement a Deductive Database System,
+  ETH, Eidgenössische Technische Hochschule Zürich, Departement Informatik,
+  Institut für Informationssysteme, Technical Report 177, June 1992
 
 Jan Burse, 26.10.2019
