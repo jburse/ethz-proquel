@@ -18,9 +18,11 @@ The following Prolog text has been uploaded:
 - [pro_quel/pro_flat_sql](https://github.com/jburse/ethz-proquel/tree/master/pro_quel/pro_flat_sql):
   ProQuel with plain Oracle target.
 
-The "_flat_" in the name above means that this is the Datalog version,
-where all predicate arguments are scalar datatypes. We did not upload
-more advanced experimental versions that were also pursued in the past.
+The "flat" in the directory name above means that this is the
+Datalog version, where all predicate arguments are scalar datatypes.
+We did not upload more advanced experimental versions that
+
+were also pursued in the past.
 
 # ProQuel Documentation
 
