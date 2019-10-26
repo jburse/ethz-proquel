@@ -26,8 +26,6 @@ more advanced experimental versions that were also pursued in the past.
 
 The following documents have been uploaded:
 - [tex_dir/gelb](https://github.com/jburse/ethz-proquel/tree/master/tex_dir/gelb):
-  Burse, J. (1992): ProQuel: Using Prolog to Implement a Deductive Database System,
-  ETH, Eidgenössische Technische Hochschule Zürich, Departement Informatik,
-  Institut für Informationssysteme, Technical Report 177, June 1992
+  Burse, J. (1992): ProQuel: Using Prolog to Implement a Deductive Database System
 
 Jan Burse, 26.10.2019
