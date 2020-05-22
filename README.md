@@ -30,4 +30,4 @@ The following documents have been uploaded:
 - [tex_dir/gelb](https://github.com/jburse/ethz-proquel/tree/master/tex_dir/gelb):
   Burse, J. (1992): ProQuel: Using Prolog to Implement a Deductive Database System
 
-Jan Burse, 26.10.2019 (just testing)
+Jan Burse, 26.10.2019
