@@ -4,7 +4,7 @@
  * Variant that can check simultaneously tautology and antilogy.
  *
  * Verbose write statements and more
- * firendly operators by Joseph Vidal-Rosset
+ * friendly operators by Joseph Vidal-Rosset
  *
  * Warranty & Liability
  * To the extent permitted by applicable law and unless explicitly
