@@ -80,10 +80,14 @@ taut(A, [B|_], T, N) :- catch((B = 0,taut(A, T, N), throw(T)), T, true),
 */
 
 taut(T, [], T, _) :- !.
-taut(A, [B|_], T, N) :- catch((B = 1,write(N),write(':'),nl,nl,taut(A, T, N),throw(T)), T, true),
-                        B = 0,
-  write(N),write(':'),nl,nl,
+taut(A, [B|_], T, N) :- catch((putSubst(B, 1, N), B = 1, taut(A, T, N), throw(T)), T, true),
+                        putSubst(B, 0, N), B = 0,
   taut(A, S, N), T = S.
+
+putSubst(B, V, N) :-
+    write_term(B, [variable_names(N)]),
+    write(' = '),
+    write(V), write(':'), nl, nl.
 
 quine:-
     getFormula(current_input,_A,_N,_T).
