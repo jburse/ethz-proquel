@@ -2,7 +2,7 @@
  * Boole's Method from 1847
  * https://stackoverflow.com/a/63603544/502187
  * Variant that can check simultaneously tautology and antilogy.
- *
+ * test
  * Verbose write statements and more
  * friendly operators by Joseph Vidal-Rosset
  *
