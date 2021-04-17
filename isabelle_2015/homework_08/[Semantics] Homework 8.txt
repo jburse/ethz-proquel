@@ -1,0 +1,28 @@
+
+Betreff:
+[Semantics] Homework 8
+Von:
+Jan Burse <jburse@hispeed.ch>
+Datum:
+09.12.2014, 02:53
+An:
+lammich@in.tum.de
+
+Guten Abend Herr Dr. Lammich,
+
+Anbei Homework 8.
+Aus Zeitgründen nur 8.2 und kein 8.1.
+
+Mit freundlichen Grüssen
+
+-- 
+Jan Burse
+Freischützgasse 14
+8004 Zürich
+E-mail: jburse@hispeed.ch
+natel: +41-76-489 04 03
+fixnet: +41-43-268 04 03
+
+
+Anhänge:
+JanBurse8.thy	16.0 KB

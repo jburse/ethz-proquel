@@ -1,0 +1,28 @@
+
+Betreff:
+[Semantics] Homework 11
+Von:
+Jan Burse <jburse@hispeed.ch>
+Datum:
+19.01.2015, 16:52
+An:
+lammich@in.tum.de
+
+Guten Abend Herr Dr. Lammich,
+
+Anbei Homework 11.
+Aus Zeitgründen nur 11.1 und kein 11.2.
+
+Mit freundlichen Grüssen
+
+-- 
+Jan Burse
+Freischützgasse 14
+8004 Zürich
+E-mail: jburse@hispeed.ch
+Handy: +41-76-489 04 03
+Fax: +41-43-268 04 03
+
+
+Anhänge:
+JanBurse11.thy	2.4 KB

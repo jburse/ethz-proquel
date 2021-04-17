@@ -1,0 +1,29 @@
+
+Betreff:
+[Semantics] Homework 7
+Von:
+Jan Burse <jburse@hispeed.ch>
+Datum:
+01.12.2014, 22:54
+An:
+lammich@in.tum.de
+
+Guten Abend Herr Dr. Lammich,
+
+Anbei Homework 7.
+Aus Zeitgründen nur 7.2 und kein 7.1.
+
+Mit freundlichen Grüssen
+
+-- 
+Jan Burse
+Freischützgasse 14
+8004 Zürich
+E-mail: jburse@hispeed.ch
+natel: +41-76-489 04 03
+fixnet: +41-43-268 04 03
+
+
+
+Anhänge:
+JanBurse7.thy	13.8 KB

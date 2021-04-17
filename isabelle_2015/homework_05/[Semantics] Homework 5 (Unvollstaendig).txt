@@ -1,0 +1,27 @@
+
+Betreff:
+[Semantics] Homework 5 (Unvollstaendig)
+Von:
+Jan Burse <jburse@hispeed.ch>
+Datum:
+17.11.2014, 23:49
+An:
+lammich@in.tum.de
+
+Guten Abend Herr Dr. Lammich,
+
+Anbei Homework 5, leider wieder nicht vollständig geschafft.
+
+Mit freundlichen Grüssen
+
+-- 
+Jan Burse
+Freischützgasse 14
+8004 Zürich
+E-mail: jburse@hispeed.ch
+natel: +41-76-489 04 03
+fixnet: +41-43-268 04 03
+
+
+Anhänge:
+JanBurse5.thy	4.5 KB
