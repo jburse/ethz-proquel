@@ -1,0 +1,21 @@
+
+Betreff:
+[semantics] Feedback for homework 10
+Von:
+"Peter Lammich" <lammich@lxbroy10.informatik.tu-muenchen.de>
+Datum:
+26.01.2015, 14:32
+An:
+jburse@hispeed.ch
+
+Hello.
+
+The feedback to your homework is attached to this mail.
+You will find our comments, including your score, enclosed in (** ... *)
+
+Regards,
+  Tobias Nipkow, Peter Lammich and Johannes Hoelzl
+
+
+Anhänge:
+JanBurse.thy	25.5 KB

@@ -1,0 +1,25 @@
+
+Betreff:
+[semantics] Feedback for homework 03
+Von:
+"Peter Lammich" <lammich@lxbroy10.informatik.tu-muenchen.de>
+Datum:
+13.11.2014, 11:11
+An:
+jburse@hispeed.ch
+
+Hello.
+
+Sorry for sending the feedback again. We forgot to account for the bonus points on homework 3.2.
+
+Effectively, your points for 3.1 doubled, and you got bonus points for 3.2.
+
+The feedback to your homework is attached to this mail.
+You will find our comments, including your score, enclosed in (** ... *)
+
+Regards,
+  Peter Lammich and Johannes Hoelzl
+
+
+Anhänge:
+JanBurse.thy	3.7 KB
